@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>HydroProtect Solutions | Higiene Ocupacional & Rig Equipment Consulting</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { overflow-x: hidden; width: 100%; max-width: 100%; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; line-height: 1.6; color: #333; }
+        
+        header { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 1rem; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .logo { font-size: 1.2rem; font-weight: bold; text-align: center; padding: 0 1rem; }
+        
+        .hero { background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%); color: white; padding: 2.5rem 1rem; text-align: center; }
+        .hero h1 { font-size: clamp(1.3rem, 5vw, 3rem); margin-bottom: 1rem; line-height: 1.2; }
+        .hero p { font-size: clamp(0.9rem, 3vw, 1.3rem); margin-bottom: 1.5rem; opacity: 0.95; }
+        
+        .btn { display: inline-block; padding: 0.8rem 1.5rem; margin: 0.5rem; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+        .btn-primary { background: #f59e0b; color: white; }
+        .btn-secondary { background: white; color: #1e40af; }
+        
+        section { width: 100%; max-width: 1200px; margin: 0 auto; padding: 2.5rem 1rem; }
+        .bg-blue { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 3rem 1rem; width: 100%; max-width: 100%; }
+        .bg-gray { background: #f8fafc; width: 100%; }
+        
+        .section-title { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-bottom: 0.5rem; color: #1e40af; text-align: center; }
+        .section-subtitle { text-align: center; color: #64748b; margin-bottom: 2rem; font-size: clamp(0.9rem, 2.5vw, 1.1rem); }
+        
+        .grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; width: 100%; }
+        @media (min-width: 640px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (min-width: 1024px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+        
+        .card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .card h3 { color: #1e40af; margin-bottom: 0.5rem; font-size: clamp(1rem, 3vw, 1.3rem); }
+        
+        .team-card { background: white; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+        .team-photo { width: 100px; height: 100px; border-radius: 50%; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; font-weight: bold; }
+        
+        .contact-grid { display: grid; grid-template-columns: 1fr; gap: 1rem; width: 100%; }
+        @media (min-width: 1024px) { .contact-grid { grid-template-columns: repeat(2, 1fr); } }
+        .contact-card { background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; text-align: center; }
+        
+        .whatsapp-float { position: fixed; width: 55px; height: 55px; bottom: 20px; right: 20px; background-color: #25d366; color: white; border-radius: 50%; text-align: center; font-size: 28px; box-shadow: 2px 2px 10px rgba(0,0,0,0.3); z-index: 100; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+        
+        footer { background: #1e293b; color: white; padding: 2rem 1rem; text-align: center; font-size: 0.85rem; width: 100%; }
+    </style>
+</head>
+<body>
+    <a href="https://wa.me/542974770758?text=Hola%2C%20necesito%20asesoramiento" class="whatsapp-float" target="_blank">💬</a>
+
+    <!-- 1. HEADER -->
+    <header>
+        <div class="logo"><span style="color: #10b981;">HydroProtect</span> Solutions</div>
+    </header>
+
+    <!-- 2. HERO -->
+    <section class="hero">
+        <h1>Liderazgo en HSEQ y Eficiencia Operativa</h1>
+        <p>Consultoría Integral de Higiene Laboral y Asesoramiento en Equipo para Torre Petrolera<br>
+        Protegemos el capital humano y optimizamos la seguridad de tus operaciones</p>
+        <div>
+            <a href="#contacto" class="btn btn-primary">🚀 Solicitar Auditoría</a>
+            <a href="#servicios" class="btn btn-secondary">📋 Ver Servicios</a>
+        </div>
+    </section>
+
+    <!-- 3. MISIÓN Y VISIÓN -->
+    <div class="bg-blue">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 0 1rem;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <div>
+                    <h2 style="font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 1rem; color: #fbbf24; display: flex; align-items: center; gap: 0.5rem;">
+                        🎯 Nuestra Misión
+                    </h2>
+                    <p style="line-height: 1.8; font-size: clamp(0.9rem, 2.5vw, 1.1rem);">
+                        Proteger el capital humano y el medio ambiente, optimizar la eficiencia y seguridad de las operaciones, 
+                        y ofrecer soluciones innovadoras basadas en conocimiento técnico y experiencia.
+                    </p>
+                </div>
+                <div>
+                    <h2 style="font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 1rem; color: #10b981; display: flex; align-items: center; gap: 0.5rem;">
+                        🚀 Nuestra Visión
+                    </h2>
+                    <p style="line-height: 1.8; font-size: clamp(0.9rem, 2.5vw, 1.1rem);">
+                        Ser líderes en QHSE (Calidad, Higiene, Seguridad y Medio Ambiente) y asesoramiento operativo en Gas & Oil, 
+                        expandiendo nuestra presencia en Vaca Muerta y el resto de la región, contribuyendo a una industria más 
+                        segura, productiva y sostenible.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. ESTADÍSTICAS -->
+    <section>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: center;">
+            <div><span style="font-size: 3rem; font-weight: bold; color: #2563eb; display: block;">150+</span><p style="color: #64748b;">Empresas asesoradas</p></div>
+            <div><span style="font-size: 3rem; font-weight: bold; color: #10b981; display: block;">0</span><p style="color: #64748b;">Multas SRT en clientes activos</p></div>
+            <div><span style="font-size: 3rem; font-weight: bold; color: #2563eb; display: block;">500+</span><p style="color: #64748b;">Capacitaciones dictadas</p></div>
+            <div><span style="font-size: 3rem; font-weight: bold; color: #2563eb; display: block;">10+</span><p style="color: #64748b;">Años de experiencia</p></div>
+        </div>
+    </section>
+
+    <!-- 5. QUIÉNES SOMOS -->
+    <div class="bg-gray" style="padding: 3rem 0;">
+        <section id="equipo">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <p class="section-subtitle">Tu socio estratégico en seguridad y eficiencia operativa</p>
+            
+            <div style="max-width: 900px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                <p style="font-size: clamp(1rem, 2.5vw, 1.2rem); line-height: 1.8; color: #475569; text-align: center;">
+                    <strong style="color: #1e40af;">HydroProtect Solutions</strong> es la consultora especializada en garantizar la seguridad, 
+                    salud y eficiencia de sus operaciones industriales. Nos enfocamos en dos pilares críticos: la 
+                    <strong>Higiene Ocupacional</strong>, para proteger el bienestar de su equipo, y la 
+                    <strong>Consultoría de Equipos de Perforación (Rig Equipment Consulting)</strong>, para optimizar el rendimiento 
+                    y la fiabilidad de sus activos. Nuestro compromiso es su protección total.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- 6. SERVICIOS -->
+    <section id="servicios">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <p class="section-subtitle">Soluciones integrales para la industria petrolera</p>
+        <div class="grid">
+            <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🔍</div><h3>Auditorías de Seguridad</h3><p>Evaluación exhaustiva de torres de perforación, workover, pulling y unidades de fractura.</p></div>
+            <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🎓</div><h3>Capacitación Especializada</h3><p>Trabajo en altura, espacios confinados, sustancias peligrosas. Cumplimiento Res. 905/15 y 886/15.</p></div>
+            <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🚨</div><h3>Planes de Emergencia</h3><p>Protocolos de respuesta ante derrames, incendios y evacuaciones para industria petrolera.</p></div>
+            <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">⚙️</div><h3>Asesoramiento en Equipos</h3><p>Consultoría para adquisición, inspección y mantenimiento preventivo/correctivo de equipos críticos.</p></div>
+            <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">📊</div><h3>Monitoreo de Riesgos</h3><p>Análisis de ruido, vibraciones, químicos, carga térmica, radiaciones, iluminación.</p></div>
+            <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🏥</div><h3>Higiene Ocupacional</h3><p>Estudios de humos de soldadura, partículas, estrés térmico. Análisis específicos para operaciones petroleras.</p></div>
+        </div>
+    </section>
+
+    <!-- 7. LEGISLACIÓN -->
+    <div class="bg-gray" style="padding: 3rem 0;">
+        <section id="legislacion">
+            <h2 class="section-title">Legislación Argentina</h2>
+            <p class="section-subtitle">Cumplimiento normativo actualizado</p>
+            <div class="grid">
+                <div class="card" style="border-left: 4px solid #ef4444;"><h4 style="color: #991b1b;">Ley 19587</h4><p>Ley de Higiene y Seguridad en el Trabajo.</p></div>
+                <div class="card" style="border-left: 4px solid #ef4444;"><h4 style="color: #991b1b;">Decreto 351/79</h4><p>Reglamentación de condiciones de higiene y seguridad.</p></div>
+                <div class="card" style="border-left: 4px solid #ef4444;"><h4 style="color: #991b1b;">Resolución 905/15 SRT</h4><p>Programa de Seguridad e Higiene obligatorio.</p></div>
+                <div class="card" style="border-left: 4px solid #ef4444;"><h4 style="color: #991b1b;">Resolución 886/15 SRT</h4><p>Protocolo de Ergonomía.</p></div>
+                <div class="card" style="border-left: 4px solid #ef4444;"><h4 style="color: #991b1b;">Decreto 911/96</h4><p>Reglamentación para Industria de la Construcción.</p></div>
+                <div class="card" style="border-left: 4px solid #ef4444;"><h4 style="color: #991b1b;">Resolución 37/10 SRT</h4><p>Exámenes médicos ocupacionales.</p></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 8. RECURSOS GRATUITOS -->
+    <section>
+        <h2 class="section-title">Recursos Gratuitos</h2>
+        <p class="section-subtitle">Herramientas y contenido de valor</p>
+        <div class="grid">
+            <div class="card" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 1rem;">✅</div><h3 style="color: white;">Checklist SRT</h3><p>Lista completa de documentación</p></div>
+            <div class="card" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 1rem;">📄</div><h3 style="color: white;">Plantillas</h3><p>Modelos de programa de seguridad</p></div>
+            <div class="card" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 1rem;">📚</div><h3 style="color: white;">Guía de Inspecciones</h3><p>Cómo prepararse para visita SRT</p></div>
+            <div class="card" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 1rem;">📅</div><h3 style="color: white;">Calendario</h3><p>Vencimientos SRT y ART</p></div>
+            <div class="card" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 1rem;">💰</div><h3 style="color: white;">Calculadora de Multas</h3><p>Estimá el costo de incumplimientos</p></div>
+            <div class="card" style="background: linear-gradient(135deg, #fbbf24, #f59e0b); color: white; text-align: center;"><div style="font-size: 2.5rem; margin-bottom: 1rem;">📰</div><h3 style="color: white;">Blog Actualizado</h3><p>Novedades legales</p></div>
+        </div>
+    </section>
+
+    <!-- 9. SECTORES -->
+    <div class="bg-gray" style="padding: 3rem 0;">
+        <section>
+            <h2 class="section-title">Sectores que Asesoramos</h2>
+            <p class="section-subtitle">Experiencia en múltiples industrias</p>
+            <div class="grid">
+                <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🛢️</div><h3 style="text-align: center;">Gas & Oil</h3><p>Torres de perforación, workover, pulling. Especialización en Vaca Muerta.</p></div>
+                <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🏗️</div><h3 style="text-align: center;">Construcción y Obras</h3><p>Decreto 911/96 y normativa específica.</p></div>
+                <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🏭</div><h3 style="text-align: center;">Industria y Manufactura</h3><p>Prevención de riesgos en procesos productivos.</p></div>
+                <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">⚡</div><h3 style="text-align: center;">Energía y Utilities</h3><p>Control de riesgos eléctricos y térmicos.</p></div>
+                <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🚚</div><h3 style="text-align: center;">Transporte y Logística</h3><p>Seguridad vial laboral.</p></div>
+                <div class="card"><div style="font-size: 2.5rem; text-align: center; margin-bottom: 1rem;">🔧</div><h3 style="text-align: center;">Mantenimiento Industrial</h3><p>Trabajos en altura, espacios confinados.</p></div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 10. POR QUÉ ELEGIRNOS -->
+    <section>
+        <h2 class="section-title">¿Por Qué Elegirnos?</h2>
+        <p class="section-subtitle">Inversión inteligente con ROI comprobado</p>
+        <div class="grid">
+            <div class="card"><h3>💰 ROI Comprobado</h3><p>Una sola multa SRT cuesta $2-5M. Nuestro servicio preventivo es una fracción de eso.</p></div>
+            <div class="card"><h3>📉 Reducción de Costos ART</h3><p>Menor siniestralidad = hasta 30% de reducción en prima ART.</p></div>
+            <div class="card"><h3>⏱️ Cero Downtime</h3><p>Evitá paralizaciones. $500K+ de costo diario en operaciones petroleras.</p></div>
+            <div class="card"><h3>✅ 40+ Años de Experiencia</h3><p>Experiencia combinada en industria petrolera.</p></div>
+            <div class="card"><h3>⚡ Respuesta 24/7</h3><p>Disponibles en menos de 24hs para proteger tu operación.</p></div>
+            <div class="card"><h3>🎯 Enfoque Preventivo</h3><p>Cada accidente cuesta 10x más que prevenirlo.</p></div>
+        </div>
+    </section>
+
+    <!-- 11. CONTACTO (TARJETAS) -->
+    <div class="bg-blue">
+        <div style="max-width: 1200px; margin: 0 auto; padding: 3rem 1rem;">
+            <h2 style="font-size: clamp(1.5rem, 4vw, 2.5rem); text-align: center; margin-bottom: 0.5rem;">Contactanos Ahora</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: clamp(0.9rem, 2.5vw, 1.2rem);">Primera consulta sin cargo - Respuesta en 24hs</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card"><div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📱</div><h3>WhatsApp</h3><p><strong>+54 9 297 477-0758</strong></p><p>Respuesta inmediata</p></div>
+                <div class="contact-card"><div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📞</div><h3>Teléfonos</h3><p><strong>(0297) 477-0758</strong></p><p><strong>(0299) 601-7343</strong></p><p>Lunes a Viernes 9-18hs</p></div>
+                <div class="contact-card"><div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📧</div><h3>Email</h3><p><strong>hydroprote@gmail.com</strong></p><p>Respuesta en 24hs</p></div>
+                <div class="contact-card"><div style="font-size: 2.5rem; margin-bottom: 0.5rem;">📍</div><h3>Ubicación</h3><p><strong>Miguel Cané 1100</strong></p><p>Comodoro Rivadavia (CP 9000)<br>Chubut, Argentina</p></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 12. FORMULARIO DE CONTACTO (AL FINAL ANTES DEL FOOTER) -->
+    <div class="bg-blue">
+        <div style="max-width: 900px; margin: 0 auto; padding: 3rem 1rem;">
+            <div style="background: white; border-radius: 16px; padding: 2.5rem; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
+                <h2 style="color: #1e40af; text-align: center; font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 0.5rem;">
+                    Envianos tu Consulta y Responderemos a la Brevedad
+                </h2>
+                <p style="text-align: center; color: #64748b; margin-bottom: 2rem; font-size: clamp(0.9rem, 2vw, 1.1rem);">
+                    Completá el formulario y nos pondremos en contacto
+                </p>
+                
+                <form action="https://formspree.io/f/mldpzvnw" method="POST" style="display: grid; gap: 1rem;">
+                    <input type="text" name="nombre" placeholder="NOMBRE*" required style="padding: 1.2rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; width: 100%;">
+                    <input type="email" name="email" placeholder="E-MAIL*" required style="padding: 1.2rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; width: 100%;">
+                    <input type="tel" name="telefono" placeholder="TELÉFONO" style="padding: 1.2rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; width: 100%;">
+                    <textarea name="mensaje" placeholder="MENSAJE" rows="6" style="padding: 1.2rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; width: 100%; resize: vertical; font-family: inherit;"></textarea>
+                    <button type="submit" style="background: #ef4444; color: white; padding: 1.3rem 2rem; border: none; border-radius: 8px; font-size: 1.1rem; font-weight: bold; cursor: pointer; width: 100%; text-transform: uppercase;" onmouseover="this.style.background='#dc2626'" onmouseout="this.style.background='#ef4444'">
+                        Envía tu Consulta
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 13. FOOTER -->
+    <footer>
+        <p><strong>HydroProtect Solutions</strong></p>
+        <p style="margin-top: 0.5rem;">Lic. Juan S. Vázquez</p>
+        <p style="margin-top: 1rem; opacity: 0.8;">© 2025 - Todos los derechos reservados</p>
+        <p style="margin-top: 0.5rem;">Miguel Cané 1100 - Comodoro Rivadavia (CP 9000) - Chubut, Argentina</p>
+        <p style="margin-top: 0.3rem;">hydroprote@gmail.com | Tel: +54 9 297 477-0758 / +54 9 299 601-7343</p>
+    </footer>
+</body>
+</html>
