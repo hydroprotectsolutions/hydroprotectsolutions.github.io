@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://hydroprotectsolutions.github.io/sitemap.xml
+
+# Bloquear archivos innecesarios
+Disallow: /README.md
